@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triple Via</title>
+    <link rel="stylesheet" type="text/css" href="triplevia2.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="nav-links-izquierda">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="nosotros.html">Quiénes Somos</a></li>
+            <li><a href="#integrantes">Integrantes</a></li>
+        </ul>
+        <div class="logo">
+            <img src="LOGO TRIPLE VIA PHOTOSHOP 2.png" alt="Logo Triple Vía">
+        </div>
+        <ul class="nav-links-derecha">
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#repertorio">Repertorio</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="slider">
+        <div class="track">
+            <div class="card">
+                <img src="fotohugo.jpg" alt="Hugo">
+                <h3>Hugo</h3>
+            </div>
+            <div class="card">
+                <img src="fotoivan.jpg" alt="Iván">
+                <h3>Iván</h3>
+            </div>
+            <div class="card">
+                <img src="fotopapa.jpg" alt="Vicente">
+                <h3>Vicente</h3>
+            </div>
+            <div class="card">
+                <img src="fotomicky.jpg" alt="Micky">
+                <h3>Micky</h3>
+            </div>
+            <div class="card">
+                <img src="fotohugo.jpg" alt="Hugo">
+                <h3>Hugo</h3>
+            </div>
+            <div class="card">
+                <img src="fotoivan.jpg" alt="Iván">
+                <h3>Iván</h3>
+            </div>
+            <div class="card">
+                <img src="fotopapa.jpg" alt="Vicente">
+                <h3>Vicente</h3>
+            </div>
+            <div class="card">
+                <img src="fotomicky.jpg" alt="Micky">
+                <h3>Micky</h3>
+            </div>
+            <div class="card">
+                <img src="fotohugo.jpg" alt="Hugo">
+                <h3>Hugo</h3>
+            </div>
+            <div class="card">
+                <img src="fotoivan.jpg" alt="Iván">
+                <h3>Iván</h3>
+            </div>
+            <div class="card">
+                <img src="fotopapa.jpg" alt="Vicente">
+                <h3>Vicente</h3>
+            </div>
+            <div class="card">
+                <img src="fotomicky.jpg" alt="Micky">
+                <h3>Micky</h3>
+            </div>
+        </div>
+    </div>
+    <main class="contenedor-principal">
+        <section class="principal" id="inicio">
+            <h2>Bienvenidos a Triple Vía</h2>
+            <p>
+                Somos una agrupación musical que busca brindar alegría,
+                ritmo y entretenimiento a través de la música.
+                Conoce nuestros servicios, agrupación y sistema de sonido
+                para acompañar tus eventos y celebraciones.
+            </p>
+        </section>
+        <section id="catalogo">
+            <h2>CATÁLOGO</h2>
+            <div class="contenedor-tarjetas">
+                <article class="producto">
+                    <img src="idea de tarjeta 4.png" alt="Agrupación y sonido">
+                    <h3>AGRUPACIÓN Y SONIDO</h3>
+                    <p class="descripcion">
+                        Música y sonido para tus eventos.
+                    </p>
+                    <span class="precio">Información</span>
+                </article>
+                <article class="producto">
+                    <img src="TARJETA  GRUPO completo 2026 mas brilloso.png" alt="Agrupación musical">
+                    <h3>AGRUPACIÓN MUSICAL</h3>
+                    <p class="descripcion">
+                        Música para diferentes ocasiones.
+                    </p>
+                    <span class="precio">Información</span>
+                </article>
+                <article class="producto">
+                    <img src="sistema de sonido.jpg" alt="Sistema de sonido">
+                    <h3>SISTEMA DE SONIDO</h3>
+                    <p class="descripcion">
+                        Equipamiento de sonido para eventos.
+                    </p>
+                    <span class="precio">Información</span>
+                </article>
+            </div>
+        </section>
+    </main>
+    <article>
+        <h1>Autor</h1>
+        <img id="yo" src="fotomicky.jpg" alt="Miguel">
+        <h1>Miguel Angel Bautista Torrico</h1>
+    </article>
+    <form id="formContratacion">
+        <h2>Datos del solicitante</h2>
+        <label>Nombre Completo:</label>
+        <input type="text" name="nombre" required>
+        <label>Número de Celular:</label>
+        <input type="tel" name="celular" required>
+        <h2>Información del Evento</h2>
+        <label>Tipo de Evento:</label>
+        <select name="tipoEvento" required>
+            <option value="">Seleccionar</option>
+            <option>MATRIMONIO</option>
+            <option>CUMPLEAÑOS</option>
+            <option>CABO DE AÑO</option>
+            <option>RECEPCIÓN SOCIAL</option>
+            <option>15 AÑOS</option>
+            <option>FIESTA PRIVADA</option>
+        </select>
+        <h2>Detalles del Evento</h2>
+        <label>Fecha del Evento:</label>
+        <input type="date" name="fecha" required>
+        <label>Hora de Inicio:</label>
+        <input type="time" name="hora" required>
+        <label>Duración de la Presentación:</label>
+        <select name="duracion">
+            <option value="">Seleccionar</option>
+            <option>1 Hora</option>
+            <option>2 Horas</option>
+            <option>4 Horas</option>
+            <option>Evento Completo</option>
+        </select>
+        <label>Dirección del evento:</label>
+        <input type="text" name="direccion" required>
+        <label>¿Cuenta con Equipo de Sonido?</label>
+        <select name="sonido">
+            <option value="">Seleccionar</option>
+            <option>Sí</option>
+            <option>No</option>
+        </select>
+        <label>Comentarios adicionales:</label>
+        <textarea name="comentarios" rows="5"></textarea>
+        <button type="submit">Enviar Solicitud</button>
+    </form>
+    <div class="contenedor-video">
+        <video controls>
+            <source src="2do video facebook.mp4" type="video/mp4">
+            Tu navegador no puede reproducir este video.
+        </video>
+    </div>
+    <div class="contenedor-audio">
+        <audio controls>
+            <source src="audio triple via.mp3" type="audio/mpeg">
+            Tu navegador no puede reproducir este audio.
+        </audio>
+    </div>
+    <footer id="contacto">
+        <p>AGRUPACIÓN MUSICAL "TRIPLE VÍA"</p>
+        <p>73564762 - 60132780</p>
+        <p>Contáctanos para más información.</p>
+    </footer>
+    <script>
+        const formulario = document.getElementById("formContratacion");
+        formulario.addEventListener("submit", function(e) {
+            e.preventDefault();
+            const datos = new FormData(formulario);
+            const nombre = datos.get("nombre");
+            const celular = datos.get("celular");
+            const tipoEvento = datos.get("tipoEvento");
+            const fecha = datos.get("fecha");
+            const hora = datos.get("hora");
+            const duracion = datos.get("duracion");
+            const direccion = datos.get("direccion");
+            const sonido = datos.get("sonido");
+            const comentarios = datos.get("comentarios");
+            const mensaje = `¡Hola! Quiero solicitar una contratación de TRIPLE VÍA.
+            DATOS DEL SOLICITANTE
+            Nombre: ${nombre}
+            Celular: ${celular}
+            INFORMACIÓN DEL EVENTO
+            Tipo: ${tipoEvento}
+            DETALLES DE PRESENTACIÓN
+            Fecha: ${fecha}
+            Hora: ${hora}
+            Duración: ${duracion || "No especificada"}
+            Dirección: ${direccion}
+            Equipo de sonido: ${sonido || "No especificado"}
+            COMENTARIOS:
+            ${comentarios || "Sin comentarios"}
+            Espero su respuesta. ¡Gracias!`;
+            const url = "https://wa.me/" + 59173564762 +
+                        "?text=" + encodeURIComponent(mensaje);
+            window.open(url, "_blank");
+            });
+    </script>
+</body>
+</html>
